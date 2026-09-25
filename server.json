@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/global-forest-watch",
+  "title": "Global Forest Watch",
+  "description": "The Global Forest Watch Data API from WRI and the University of Maryland — browse the datasets…",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/global-forest-watch",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-global-forest-watch",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/global-forest-watch/mcp"
+    }
+  ]
+}
