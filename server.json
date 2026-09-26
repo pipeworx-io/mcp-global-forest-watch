@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/global-forest-watch",
   "title": "Global Forest Watch",
   "description": "The Global Forest Watch Data API from WRI and the University of Maryland — browse the datasets…",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/global-forest-watch",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-global-forest-watch",

@@ -5,7 +5,7 @@ behind GFW: annual tree cover loss and gain, primary forest extent, GLAD and
 RADD deforestation alerts, VIIRS/MODIS fire alerts, carbon flux, protected
 areas, concessions and Aqueduct water risk.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1679+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1683+ live data sources.
 
 ## Tools
 
@@ -93,7 +93,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1679+ data sources. The
+Both URLs reach the same gateway and the same 1683+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

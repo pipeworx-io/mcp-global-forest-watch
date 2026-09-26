@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-global-forest-watch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Global Forest Watch Data API from WRI and the University of Maryland — browse the datasets behind GFW (annual tree cover loss and gain, primary forest extent, GLAD and RADD deforestation alerts, fire alerts, carbon flux, protected areas) and run SQL against any version of them.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-6477b0931db7722c11ecebfb367cd4beeeebfcdf14a3f2c1aa2cb8f7f5862431",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-8db7855f9ae2a86f45ec08c8a04c836563388b038c1ebc3bf3687958b061c226",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
