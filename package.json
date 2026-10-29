@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-global-forest-watch",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "The Global Forest Watch Data API from WRI and the University of Maryland — browse the datasets behind GFW (annual tree cover loss and gain, primary forest extent, GLAD and RADD deforestation alerts, fire alerts, carbon flux, protected areas) and run SQL against any version of them.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-global-forest-watch": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "global-forest-watch"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-global-forest-watch.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/global-forest-watch",
   "pipeworx": {
-    "sourceHash": "v1-98004b3f59d6f00a0c70f00e5c7af9363085561d25fcb995b4bac9a4da96d6e7",
-    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
+    "mode": "gateway",
+    "slug": "global-forest-watch",
+    "gatewaySlug": "global-forest-watch",
+    "sourceHash": "v1-25f723acb11af7129c7496210775ed6322248828fa377d4a7f28e198bddb0ce2",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
